@@ -7,6 +7,7 @@ chrome.contextMenus.create({
   }
 });
 
+
 function uploadImage(url) {
   chrome.browserAction.setBadgeText({ 'text': 'Transloading...' });
   $.ajax({
